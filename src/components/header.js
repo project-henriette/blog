@@ -17,21 +17,26 @@ const Header = ({ siteTitle }) => (
           padding: `0.65rem 1.0875rem`,
           display: `flex`,
           flexDirection: `row`,
-          justifyContent: `flex-end`,
+          justifyContent: `space-between`,
         }}
       >
-        <Link to="/about" style={{ color: `black`, textDecoration: `none`, padding: `0 1rem` }}>
-          github
-        </Link>
-        <Link to="/contact" style={{ color: `black`, textDecoration: `none`, padding: `0 1rem` }}>
+        <div>
+          <Link to="#about" style={{ color: `black`, textDecoration: `none`, padding: `0 1rem` }}>
+            About
+          </Link>  
+        </div>
+        <div>
+        <a href="https://www.instagram.com/natalie_mikesova/?hl=en" style={{ color: `black`, textDecoration: `none`, padding: `0 1rem` }}>
           instagram
-        </Link>
-        <Link to="/contact" style={{ color: `black`, textDecoration: `none`, padding: `0 1rem` }}>
+        </a>
+        <a href="https://www.facebook.com/ZenOfMaking" style={{ color: `black`, textDecoration: `none`, padding: `0 1rem` }}>
           fb
-        </Link>
-        <Link to="/contact" style={{ color: `black`, textDecoration: `none`, padding: `0 1rem` }}>
+        </a>
+{/*         <Link to="/contact" style={{ color: `black`, textDecoration: `none`, padding: `0 1rem` }}>
           linkedin
-        </Link>
+        </Link> */}
+
+        </div>
       </div>
 
     </div>

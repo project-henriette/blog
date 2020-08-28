@@ -3,21 +3,22 @@ import React from 'react';
 import { graphql, Link } from "gatsby"
 
 const ArticleListTIL = ({ data }) => {
-  console.log('til', data);
+  console.log('is this showed somewhere?', data);
   return (
-  <div  style={{ width: '300px' }}>
+  <div style={{ width: '300px' }}>
     {data.map(({ node }) => (
     <div key={node.id}>
       <Link
+        style={{ textAlign: 'center' }}
         to={node.fields.slug}
       >
-      <h4>
+      <h4 style={{ textAlign: 'center' }}>
         {node.frontmatter.title}{" "}
         
       </h4>
       </Link>
-      <h6>— {node.frontmatter.date}</h6>  
-      <p>{node.excerpt}</p>
+      <h6 style={{ textAlign: 'center' }}>— {node.frontmatter.date}</h6>  
+      <p style={{ textAlign: 'center' }}>{node.excerpt}</p>
     </div>
   ))}
 </div>);
