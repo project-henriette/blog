@@ -3,10 +3,10 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header style={{ borderBottom: `4px solid #01013a` }}>
+  <header>
     <div
       style={{
-        background: `#01013a`,
+        background: `#ffffff`,
         width: `100%`
       }}
     >
@@ -20,16 +20,16 @@ const Header = ({ siteTitle }) => (
           justifyContent: `flex-end`,
         }}
       >
-        <Link to="/about" style={{ color: `white`, textDecoration: `none`, padding: `0 1rem` }}>
-          about
+        <Link to="/about" style={{ color: `black`, textDecoration: `none`, padding: `0 1rem` }}>
+          github
         </Link>
-        <Link to="/contact" style={{ color: `white`, textDecoration: `none`, padding: `0 1rem` }}>
-          contact
+        <Link to="/contact" style={{ color: `black`, textDecoration: `none`, padding: `0 1rem` }}>
+          instagram
         </Link>
-        <Link to="/contact" style={{ color: `white`, textDecoration: `none`, padding: `0 1rem` }}>
+        <Link to="/contact" style={{ color: `black`, textDecoration: `none`, padding: `0 1rem` }}>
           fb
         </Link>
-        <Link to="/contact" style={{ color: `white`, textDecoration: `none`, padding: `0 1rem` }}>
+        <Link to="/contact" style={{ color: `black`, textDecoration: `none`, padding: `0 1rem` }}>
           linkedin
         </Link>
       </div>
@@ -40,6 +40,7 @@ const Header = ({ siteTitle }) => (
         margin: `0 auto`,
         maxWidth: 960,
         padding: `0.5rem 1.0875rem`,
+        borderBottom: `2px solid black`
       }}
     >
       <h1 style={{ margin: 0, padding: `1rem 0` }}>
@@ -48,7 +49,6 @@ const Header = ({ siteTitle }) => (
           style={{
             color: `black`,
             textDecoration: `none`,
-            fontFamily: `Helvetica`,
           }}
         >
           {siteTitle}

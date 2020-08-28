@@ -2,8 +2,9 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import ArticleBlock from "../components/article-block"
+import ArticleHeading from '../components/article-heading';
 import ArticleList from "../components/article-list"
+import About from "../components/about"
 import SEO from "../components/seo"
 
 const IndexPage = ({ data }) => {
@@ -15,17 +16,23 @@ const IndexPage = ({ data }) => {
     {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div> */}
-    <div style={{ display: `flex`, flexDirection: `row`, justifyContent: `space-around`}}>
+    <div style={{
+      display: `flex`,
+      flexDirection: `row`,
+      justifyContent: `space-between`,
+      margin: `0px auto`,
+      maxWidth: `960px`,
+      borderBottom: `2px solid black`
+      }}
+    >
       {
         ['work', 'craft', 'til'].map(category => (
-          <ArticleBlock category={category}>
-            <ArticleList data={data.allMarkdownRemark.edges.filter(({ node }) => node.frontmatter.category === category )}/>
-          </ArticleBlock>
+          <ArticleHeading category={category}/>
         ))
       }
     </div>
-    <div style={{ borderTop: `3px solid red`, }}><h4>there be dragons - about</h4></div>
-    <div style={{ borderTop: `3px solid pink`, }}><h4>there be footer</h4></div>
+    <ArticleList data={data.allMarkdownRemark.edges}/>
+    <About/>  
   </Layout>
 );
 }
@@ -42,11 +49,17 @@ query {
           title
           category
           date
+          featuredImage {
+            childImageSharp {
+              fluid(maxWidth: 800) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
         fields {
           slug
         }
-        fileAbsolutePath
       }
     }
   }
