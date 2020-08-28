@@ -4,7 +4,6 @@ import PropTypes from "prop-types"
 import ArticleHeading from './article-heading';
 
 const ArticleBlock = ({category, data, children}) => {
-  console.log('block', data);
   return (
     <div style={{
       padding: `0.5rem`,
@@ -12,7 +11,7 @@ const ArticleBlock = ({category, data, children}) => {
       flexDirection: `column`,
       alignItems: `center`
     }}>
-      <ArticleHeading category={category} data={data}/>
+      {/* <ArticleHeading category={category} data={data}/> */}
       {children}
     </div>
   );
