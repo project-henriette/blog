@@ -59,7 +59,7 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <h3>Quote line about stupidities</h3> 
+      <h3 style={{ fontSize: `1.2rem`, color: '#331147'}}>About the little pleasures of creating whatever</h3> 
     </div>
   </header>
 )

@@ -18,18 +18,18 @@ const ArticleList = ( {data} ) => (<div style={{ padding: `1rem`}}>
        <Img fluid={node.frontmatter.featuredImage.childImageSharp.fluid} /> :
        ''
       } 
+      <h2 style={{ color: '#000000', padding: '3rem 1rem 1rem 1rem' }}>
+        {node.frontmatter.title}{" "}
+      </h2>
       
+      <h5 style={{ padding: '0.5rem 1rem' }}>— {node.frontmatter.date}</h5>  
+      <p style={{ padding: '0.5rem 1rem' }}>{node.excerpt}</p>
       <Link
-        style={{ textAlign: 'center' }}
+        style={{ textDecoration: 'none', color: '#8f53b2' }}
         to={node.fields.slug}
       >
-      <h4 style={{ textAlign: 'center' }}>
-        {node.frontmatter.title}{" "}
-        
-      </h4>
+        <p style={{ textAlign: 'center' }}>Read full post...</p>
       </Link>
-      <h6 style={{ textAlign: 'center' }}>— {node.frontmatter.date}</h6>  
-      <p style={{ textAlign: 'center' }}>{node.excerpt}</p>
     </div>
   )})}
 </div>);

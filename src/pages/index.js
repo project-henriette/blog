@@ -38,7 +38,7 @@ query {
     edges {
       node {
         id
-        excerpt
+        excerpt(pruneLength: 300)
         frontmatter {
           title
           tags

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ArticleHeading = ({category}) => (
+const ArticleHeading = ({tag}) => (
   <div style={{ 
     width: `7rem`,
     height: `3rem`,
@@ -10,7 +10,7 @@ const ArticleHeading = ({category}) => (
     alignItems: `center`,
     }}
   >
-    <h4 style={{ color: `black`, margin: 0, padding: '1rem' }}>{category}</h4>
+    <h4 style={{ color: `black`, margin: 0, padding: '1rem' }}>{tag}</h4>
   </div>
 );
 

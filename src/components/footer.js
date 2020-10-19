@@ -6,11 +6,20 @@ const Footer = () => (
       margin: `0px auto`,
       padding: `1rem`,
       maxWidth: `960px`,
-      borderTop: `2px solid black`
-    }}><h4>there be footer</h4></div>
-    Natali Mikesova © {new Date().getFullYear()}, Built with
-    {` `}
-    <a href="https://www.gatsbyjs.org">Gatsby</a>
+      borderTop: `2px solid black`,
+    }}>
+      <h4>there be footer</h4>
+    </div>
+    <div style={{
+      margin: `0px auto`,
+      padding: `0.5rem`,
+      display: `flex`,
+      flexDirection: `row`,
+      justifyContent: `center`
+    }}>
+      <p style={{ fontSize: `0.8rem`}}>Natalie Mikesova © {new Date().getFullYear()}, Built with </p>
+      <a style={{ fontSize: `0.8rem`, paddingLeft: `5px` }} href="https://www.gatsbyjs.org">Gatsby</a>
+    </div>
   </footer>
 );
 
