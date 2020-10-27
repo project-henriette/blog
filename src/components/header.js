@@ -43,7 +43,7 @@ const Header = ({ siteTitle }) => (
         borderBottom: `2px solid black`
       }}
     >
-      <h1 style={{ margin: 0, padding: `1rem 0` }}>
+      <h1 style={{ margin: 0, padding: `1rem` }}>
         <Link
           to="/"
           style={{
@@ -54,7 +54,7 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <h3 style={{ fontSize: `1.2rem`, color: '#331147'}}>About the little pleasures of creating whatever</h3> 
+      <h3 style={{ fontSize: `1.2rem`, color: '#331147', padding: `0 1rem`}}>About the little pleasures of creating whatever</h3> 
     </div>
   </header>
 )

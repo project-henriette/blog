@@ -9,7 +9,7 @@ export default ({ data }) => {
     <Layout>
       <div 
         style={{
-        padding: `1rem`
+        padding: `2rem`
       }}>
         <h1
           style={{ textAlign: 'left', color: '#000000', padding: '2rem 1rem' }}
