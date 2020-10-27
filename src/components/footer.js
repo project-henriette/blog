@@ -9,6 +9,7 @@ const Footer = () => (
       borderTop: `2px solid black`,
     }}>
       <h4>there be footer</h4>
+      <p>One day I will decide what needs to be put into my footer of the page, but for now I have no idea. Dragons?</p>
     </div>
     <div style={{
       margin: `0px auto`,
