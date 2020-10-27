@@ -12,13 +12,15 @@ export default ({ data }) => {
         padding: `1rem`
       }}>
         <h1
-          style={{ textAlign: 'center', color: '#000000', padding: '2rem 1rem' }}
+          style={{ textAlign: 'left', color: '#000000', padding: '2rem 1rem' }}
         >{post.frontmatter.title}</h1>
-        {
-          post.frontmatter.featuredImage ?
-          <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} /> :
-          ''
-        } 
+        <div style={{ padding: `1rem` }}>
+          {
+            post.frontmatter.featuredImage ?
+            <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} /> :
+            ''
+          }
+        </div>
         <div style={{ padding: '1rem' }} dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </Layout>

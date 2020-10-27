@@ -14,17 +14,12 @@ const Header = ({ siteTitle }) => (
         style={{
           margin: `0 auto`,
           width: `100%`,
-          padding: `0.65rem 1.0875rem`,
+          padding: `1rem 1.0875rem`,
           display: `flex`,
           flexDirection: `row`,
-          justifyContent: `space-between`,
+          justifyContent: `flex-end`,
         }}
       >
-        <div>
-          <Link to="#about" style={{ color: `black`, textDecoration: `none`, padding: `0 1rem` }}>
-            About
-          </Link>  
-        </div>
         <div>
         <a href="https://www.instagram.com/natalie_mikesova/?hl=en" style={{ color: `black`, textDecoration: `none`, padding: `0 1rem` }}>
           instagram
@@ -44,7 +39,7 @@ const Header = ({ siteTitle }) => (
       style={{
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `0.5rem 1.0875rem`,
+        padding: `0.5rem 0.5rem`,
         borderBottom: `2px solid black`
       }}
     >
