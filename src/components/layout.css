@@ -616,5 +616,5 @@ pre tt:after {
 }
 
 .gatsby-resp-image-wrapper {
-  max-width: 960px;
+  max-width: 960px !important;
 }

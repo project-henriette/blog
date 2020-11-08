@@ -10,7 +10,7 @@ My pandemic lockdown preparation started quite early. I got the gut feeling in S
 
 Humbug wools are blends from one type of sheep wools. There are 7 blends from arious sheep breeds, only natural colors, for a very fair price. But I needed to know how the fiber feels and works before ordering a larger amount. So I got the samples and I started spinning the first one, Icelandic. Or at least that is what I think it is. I compared the pictures from the WoW website with the sample and shot from the hip :)
 
-![icelandic wool roving sample](./icelandic2.jpg)
+![icelandic wool roving sample](./icelandic3.jpg)
 
 Each sample has 50g of wool, that is a doable amount for playing. I started examining the fiber, it has a quite long-staple, it is quite coarse to touch. My mind was starting to imagine Icelandic landscapes and cold weather and I saw myself in a coat. Yeah, it doesn't feel like something I would like to wear on my skin, but it would make some heavy-duty protection against wet and cold weather if woven into a piece of good fabric. The blend comes out a bit 'salt and pepper' like shades, medium grey, I can definitely imagine a good woolen duffle coat. Stop dreaming and spin on, girl...
 
