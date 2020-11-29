@@ -1,7 +1,7 @@
 ---
 title: "How to emboss paper"
 subtitle: "And make some Christmas cards"
-date: "2020-11-08"
+date: "2020-11-29"
 tags: "paper"
 featuredImage: ./cards.jpg
 ---
@@ -32,7 +32,7 @@ So this is my go-to art technique for Christmas cards. I already tried some samp
 
 1. Sketch the design you want to emboss. Embossing means that the design is going to raise from the paper. Debossing is the design indented into the paper. Simple shapes only have one raising line, so splitting the shape into small particles creates a much more intriguing effect. [Embossing on Wikipedia](https://en.wikipedia.org/wiki/Paper_embossing)
 
-![Design marked on the cardboard](./diy_emboss_cutout.jpg)
+![Design marked on the cardboard](./diy_emboss_sketch.jpg)
 
 2. Cut the pieces out using the Exacto knife. With complex designs start at the center and go outwards. Using a sharp blade will help you cut the pieces precisely and without tear-out. Clean the pencil marks with an eraser. I skipped this step at first and I was very sorry later.
 
