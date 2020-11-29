@@ -617,4 +617,5 @@ pre tt:after {
 
 .gatsby-resp-image-wrapper {
   max-width: 960px !important;
+  margin: 1rem 0 2rem 0 !important;
 }

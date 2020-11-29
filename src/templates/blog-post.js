@@ -12,8 +12,16 @@ export default ({ data }) => {
         padding: `2rem`
       }}>
         <h1
-          style={{ textAlign: 'left', color: '#000000', padding: '2rem 1rem' }}
+          style={{ textAlign: 'left', color: '#000000', padding: '2rem 1rem 1rem 1rem' }}
         >{post.frontmatter.title}</h1>
+        {
+          post.frontmatter.subtitle ?
+            <h2 style={{ textAlign: 'left', color: '#000000', padding: '0rem 1rem' }}>
+              {post.frontmatter.subtitle}
+            </h2> :
+            ""
+        }
+        <h5 style={{ padding: '0.5rem 1rem' }}>— {post.frontmatter.date}</h5>
         <div style={{ padding: `1rem` }}>
           {
             post.frontmatter.featuredImage ?
@@ -32,15 +40,16 @@ export const query = graphql`
       html
       frontmatter {
         title
+        subtitle
         tags
-          date
-          featuredImage {
-            childImageSharp {
-              fluid(maxWidth: 800) {
-                ...GatsbyImageSharpFluid
-              }
+        date
+        featuredImage {
+          childImageSharp {
+            fluid(maxWidth: 960) {
+              ...GatsbyImageSharpFluid
             }
           }
+        }
       }
     }
   }

@@ -31,62 +31,43 @@ So this is my go-to art technique for Christmas cards. I already tried some samp
 ## Step by step to emboss like a boss:
 
 1. Sketch the design you want to emboss. Embossing means that the design is going to raise from the paper. Debossing is the design indented into the paper. Simple shapes only have one raising line, so splitting the shape into small particles creates a much more intriguing effect. [Embossing on Wikipedia](https://en.wikipedia.org/wiki/Paper_embossing)
-
-![Design marked on the cardboard](./diy_emboss_sketch.jpg)
+![Design marked on the cardboard](./diy_embossing_sketch.jpg)
 
 2. Cut the pieces out using the Exacto knife. With complex designs start at the center and go outwards. Using a sharp blade will help you cut the pieces precisely and without tear-out. Clean the pencil marks with an eraser. I skipped this step at first and I was very sorry later.
-
 ![Pattern cut out of the cardboard](./diy_emboss_cutout2.jpg)
 
-
 3. Place the paper over the pattern. You will emboss on the wrong side of the paper to have the shape raising on the other side. So to emboss the front of the card you need to open it and work there. Lift it against the light source to see the pattern through the paper if you need to see it better. With this setup, I have created random hearts I will later randomly emboss into different cards. If you will create more cards with the same design it is better to place them on edge or mark the spot to place the paper. Fix the paper with tape.
-
 ![Placing paper](./diy_emboss_process1.jpg)
 
 4. Using your embossing tool of choice (rounded side of a spoon would work well here too) lightly rub over the paper. Always do the rubbing / pressing part on the wrong side of the paper. It has a bit of shine and marks of the tool you use and it doesn’t look good.
-
 ![Lightly embossed pattern](./diy_emboss_process2.jpg)
 
 5. Using the embossing tool press around the sides of the pattern to create the edge of the cutout shape. Rub over the center to press it through the cutout onto the mat. Go in multiple steps to prevent tearing the paper.
-
-![Defined edge of the embossed shape](./diy_emboss_process3.jpg)
-![Front side view of the embossed shape](./diy_emboss_process4.jpg)
+![Defined edge of the embossed shape](./diy_emboss_process3.jpg)![Front side view of the embossed shape](./diy_emboss_process4.jpg)
 
 6. Debossing - showing the difference in effect. I use pattern #2 I have cut out - but not the card with cutout pieces but the cutout shape. I have taped the shape on the mat and placed the card over it. I embossed the outer line of the heart shape.
-
 ![Loose cardoard heart shape](./diy_emboss_process5.jpg)
 ![Debossed heart shape on the wrong side](./diy_emboss_process6.jpg)
-
 And here is the result - the first heart shape is embossed, the second heart with its pattern is debossed
-
 ![Debossed heart shape on the front/right side](./diy_emboss_process7.jpg)
 
 7. Embossing and debossing an outline. I have secured the main pattern board and a cutout piece with double-sided tape. I have pressed both edges first and then shaped the center a bit. This is the way to create a pattern with a continuous outline.
-
 ![Embossing - debossing pattern](./diy_emboss_process8.jpg)
 ![Shaping the outline](./diy_emboss_process9.jpg)
-
 And the result:
-
 ![Full outline heart](./diy_emboss_process10.jpg)
 
 8. More complex shapes require taping the card to the place to prevent it from moving. You will need to check if the shape is how you intended it to be or if there is a piece missing - you’ll need to lift the paper to look at the pattern. Go over the shape lightly at first to see the position and then press the edges. Press the centers. Lift the paper when you feel like some parts are missing or to check the pattern below.
-
 ![Light outline](./diy_emboss_process11.jpg)
 ![Defining the edges of complex pattern](./diy_emboss_process12.jpg)
-
 The full shape embossed:
-
 ![Finished embossed pattern on the front page](./diy_emboss_process13.jpg)
 
 9. Now the pinnacle of the embossing journey. To place the pattern lift the cardboard pattern and the embossed paper against the light. Rub over the area lightly at first, then emboss the edges. I would recommend startting from the center of the piece going outwards. Make sure you don't forget any particle, otherwise the shape might end up incomplete.
-
-![Pattern against the light](./diy_emboss_process15.jpg)
-![Pressing the shapes](./diy_emboss_process16.jpg)
+![Pattern against the light](./diy_emboss_process15.jpg)![Pressing the shapes](./diy_emboss_process16.jpg)
 ![Finished heart shape](./diy_emboss_process17.jpg)
 
 10. Finish the front of your card using markers, watercolors, pencil… or leave it as it is. I have left the pencil on the pattern and it pressed into the front, so I had to camouflage the mistake with some more pencil marks. It is not really possible to use eraser on embossed paper without destroying your previous hard work. 
-
 ![Front page with some pencil marks](./diy_emboss_process18.jpg)
 
 More cards to see here on [my instagram](https://www.instagram.com/p/CILze5qLjzK/)
